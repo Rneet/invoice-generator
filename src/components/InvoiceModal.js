@@ -23,7 +23,7 @@ const InvoiceModal = ({ showModal, closeModal, info, items, currency, total, sub
       <div id="invoiceCapture">
         <div className="d-flex justify-content-between align-items-start bg-light p-4">
           <div>
-            <h4 className="fw-bold my-2">{info.billFrom || 'John Uberbacher'}</h4>
+            <h4 className="fw-bold my-2">{info.billFrom}</h4>
             <h6 className="fw-bold text-secondary">Invoice #: {info.invoiceNumber || ''}</h6>
           </div>
           <div className="text-end">
